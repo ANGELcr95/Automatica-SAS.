@@ -1,0 +1,28 @@
+#Politica{
+    margin-top: 3%70px;
+    
+}
+
+#Politica .contenedor  {
+    position:relative;
+    color:gray;
+    width: 80%;
+    left: 10% 
+    
+}
+
+#Politica .contenedor h2  {
+    color:black;
+    
+}
+
+#Politica.contenedor p{
+    color: grey;
+    
+}
+
+
+
+
+
+

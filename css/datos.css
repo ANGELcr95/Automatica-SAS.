@@ -1,0 +1,100 @@
+
+#Datos {
+    width: 100vw;/* para que coja el ancho total de la pagina y si adapta*/
+    background: rgb(20, 29, 29); /* hace refernecia al color del header*/
+    color:white;/*color de la letra del header */
+    position: absolute;
+   
+        
+}
+#Datos .contenedor{
+        margin-left: 7%;
+        padding-top: 2%; 
+        margin-bottom: 5%;
+     
+        
+}
+#Datos .contenedor h2{
+    font-size: 40px;
+       
+}
+#Datos .contenedor input{
+    width: 40%;
+    padding: 1%;
+    display: block;
+    
+
+}
+#Datos .contenedor input:focus{
+    
+    background-color:gray;
+    color: white;
+    font-size: 18px;
+    
+}
+#Datos .contenedor p{
+    font-size: 20px;
+    margin-bottom: 0.5%;
+}
+#Info {
+    position:absolute;
+    color:white;
+    margin-left: 50%;
+    margin-top: 7%;
+    font-size: 20px;
+      
+}
+    
+#Info img{
+    width:5%;
+   
+}
+#Info p{
+    margin-bottom: 1.5%;
+}
+
+    
+  
+
+@media (max-width:768px){
+
+    #Datos {
+        width: 100vw;/* para que coja el ancho total de la pagina y si adapta*/
+        background: rgb(20, 29, 29); /* hace refernecia al color del header*/
+        color:white;/*color de la letra del header */
+        position: relative;
+        margin-bottom: 0%;
+    }
+
+    #Datos .contenedor{
+        margin-left: 7%;
+        padding-top: 2%; 
+        padding-bottom: 3%;
+        margin-bottom: 0%;
+     
+        
+}
+    #Datos .contenedor input{
+        width: 80%;
+        padding: 1%;
+        display: block;
+    }
+
+    #Info {
+        background: rgb(20, 29, 29);
+        position:relative;
+        color:white;
+        margin-left:0%;
+        margin-top: 0%;
+        font-size: 20px;
+        
+                  
+    }
+    #Info img{
+        margin-left:7%;
+       
+    }
+    #Info p{
+        margin-left:7%;
+    }
+}

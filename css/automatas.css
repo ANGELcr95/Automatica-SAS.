@@ -1,0 +1,84 @@
+#automatas {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin-top:-12%;
+    
+    
+}
+#automatas h2{
+    font-size: 25px;
+    color:rgb(14, 14, 83);
+    text-align: center;
+    padding-top: 14%;
+}
+#automatas {
+    
+    color: gray;
+    text-align: center;
+}
+
+#automatas p{
+   padding-bottom: 2%;
+
+}
+
+#automatas .contenedor article {
+    width: 25%;
+    height: 20%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1%;
+    cursor: pointer;
+    margin-left: 15%;
+    
+   
+    
+}
+
+#automatas article:hover {
+    color: black;
+    transition: 1s;
+    border: 1.5px solid black;
+    width: 26%;
+    font-size: 17px;
+}
+
+#automatas img {
+    width: 150px;
+    height: 150px; 
+    
+}
+
+#automatas .contenedor {
+   
+    display: flex;
+    
+}
+#automatas .contenedor h2{
+    font-size: 18px;
+    
+}
+@media (max-width:768px){
+
+    #automatas .contenedor {
+        display: block;
+        
+    }
+     #automatas .contenedor article {
+        width: 80%;
+        height: 50%;
+        margin: 12%;
+        margin-top: 1.5%;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 2%;
+        cursor: pointer;
+    }
+    
+    
+       
+    
+   
+    
+}

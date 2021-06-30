@@ -1,0 +1,19 @@
+
+#Objetivos .contenedor  {
+    position:relative;
+    color:black;
+    width: 80%;
+    left: 10%;
+    
+}
+#Objetivos .contenedor h2  {
+    color:black;
+    
+}
+
+#Objetivos .contenedor ol{
+    color: grey;
+    
+}
+
+

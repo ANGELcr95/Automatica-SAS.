@@ -1,0 +1,45 @@
+
+
+ #menu-automatización{/* lo llamo y el doy propiedades al chebox, llamo con numeral los ID */
+    display: none; /* para esconderlo y no afecta la navegacion */
+}
+header label {/* es el icono */
+    
+    float:right;/* para que flote a la derecha y se acompañe de texto */
+    font-size: 28px;/* para el tamaño de la letra */
+    margin:20px;/* se pixeles desde arriba y cero hacia el costa do derecho or qu r flota right */
+    cursor: pointer;/* para cunado psae el mouse en el icono pase una manito*/
+
+}
+.menu {
+    
+    position: absolute;/* permite solparse sobre otros receuadros */
+    top: 80px;;/* para arraqnue desde arriba */
+    left: 0px;/* para aauanque desde la derecja */
+    width:100%;/* para que coja todo el ancho */
+    height: 250;/* para que ocupe siempre el alto de la pantalla */
+    background:rgba(51,51,51,0.9);/* el color y tranparencia */
+    transition: all 0.s;/* el tiempo que se demore para que lo genere */
+    transform:translatex(-100%);/* para tranladar el menu */
+    z-index: 100;/* es para que este siempre por delante del resto */
+
+}
+
+.menu a {
+    
+    display:block;/* es para organizar en forma de lista desendente */
+    color:white;
+    height: 50px;/*la distancia entre cada una de las ileras */
+    text-decoration: none;/* quita las lineas de abajo */
+    border-bottom:1px solid rgba(255,255,255,0.5);/* borden entre las casillas */
+    text-align: center;
+    
+}
+.menu a:hover {
+    background: rgb(255, 255, 255,0.3);/* cunado pase el mouse sobre las casillas se vuelva del color que queramos */
+    
+}
+
+#menu-automatización:checked ~ .menu{
+    transform:translatex(0%);/*lo volvemos a la posicion orifginal*/
+}

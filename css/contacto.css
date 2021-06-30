@@ -1,0 +1,59 @@
+
+#Contacto {
+    width: 100vw;/* para que coja el ancho total de la pagina y si adapta*/
+    background: rgb(20, 29, 29); /* hace refernecia al color del header*/
+    color:white;/*color de la letra del header */
+    position: absolute;
+        
+}
+#Contacto .contenedor img{
+    width: 9%;
+    padding-left: 5%;
+        
+}
+#Contacto .contenedor h2{
+    font-size: 40px;
+    padding: 5% 0% 1% 5%;
+}
+#Contacto .contenedor p{
+    font-size: 20px;
+    padding-left: 5%;
+    padding-bottom: 4%;
+}
+
+#mail .contenedor {
+    position: absolute;
+    left: 25%;
+    margin-top: 10.7%;
+    color: white;
+    font-size: 20px;
+}
+    
+#mail .contenedor img{
+    width: 20%;
+    
+    
+}
+#ubicacion .contenedor {
+    position: absolute;
+    left: 48%;
+    margin-top: 10.1%;
+    color: white;
+    font-size: 20px;
+}
+    
+#ubicacion .contenedor img{
+    width: 12%;   
+}
+@media (max-width:768px){
+
+    #servicios .contenedor{
+        display: block;
+        margin: auto;
+        position: relative;
+        padding-right: 9%;
+    }
+    #Info{
+        margin-bottom: 0;
+    }
+}

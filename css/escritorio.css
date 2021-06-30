@@ -1,0 +1,119 @@
+
+ #menu-escritorio{/* lo llamo y el doy propiedades al chebox, llamo con numeral los ID */
+    display: none; /* para esconderlo y no afecta la navegacion */
+}
+
+header label {/* es el icono */
+    display: none;
+    float:right;/* para que flote a la derecha y se acompañe de texto */
+    font-size: 28px;/* para el tamaño de la letra */
+    margin:20px;/* se pixeles desde arriba y cero hacia el costa do derecho or qu r flota right */
+    cursor: pointer;/* para cunado psae el mouse en el icono pase una manito*/
+
+}
+#buscar {
+    
+    margin-left: 15%;
+    width: 20%;
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;  
+
+}
+
+#buscar::placeholder{
+    color: gray;
+    font-size: 18px;
+
+}
+.escritorio {
+    position: absolute;/* permite solparse sobre otros receuadros */
+    top: 63%;;/* para arraqnue desde arriba */
+    left: 10%;/* para aauanque desde la derecja */
+    width:80%;/* para que coja todo el ancho */
+    border-radius: 10px;
+    background:rgba(51,51,51,0.9);/* el color y tranparencia */
+    font-size: 20px;
+    padding: 1%;
+}
+    
+
+.escritorio a {
+    
+    color:white;
+    height: 20%;/*la distancia entre cada una de las ileras */
+    text-decoration: none;/* quita las lineas de abajo */
+    margin: 1%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+} 
+.escritorio a:hover {
+    background: rgb(255, 255, 255,0.3);/* cunado pase el mouse sobre las casillas se vuelva del color que queramos */
+}
+
+
+@media (max-width:768px){
+
+    header label {/* es el icono */
+        display: block;
+        font-size: 28px;/* para el tamaño de la letra */
+        margin:2%;/* se pixeles desde arriba y cero hacia el costa do derecho or qu r flota right */
+        cursor: pointer;/* para cunado psae el mouse en el icono pase una manito*/
+        position: absolute;
+        left: 85%;
+        top: 40%;
+    
+    }
+
+       .escritorio {
+    
+        position: absolute;/* permite solparse sobre otros receuadros */
+        top: 121px;;/* para arraqnue desde arriba */
+        left: 0px;/* para aauanque desde la derecja */
+        width:100vw;/* para que coja todo el ancho */
+        height: 250;/* para que ocupe siempre el alto de la pantalla */
+        background:rgba(51,51,51,0.7);/* el color y tranparencia */
+        transition:transform 0s;/* el tiempo que se demore para que lo genere */
+        transform:translatex(-100%);/* para tranladar el menu */
+
+        
+
+        
+    
+    }
+    .escritorio a{
+        display:block;/* es para organizar en forma de lista desendente */
+        color:white;
+        height: 48px;/*la distancia entre cada una de las ileras */
+        text-decoration: none;/* quita las lineas de abajo */
+        
+        border-bottom:1px solid rgba(255,255,255,0.5);/* borden entre las casillas */
+        text-align: center;
+        border-radius: 5px;
+        font-size: 18px;
+        
+        
+        
+    }
+    .escritorio a:hover {
+        background: rgb(255, 255, 255,0.3);/* cunado pase el mouse sobre las casillas se vuelva del color que queramos */
+    }
+    
+    #menu-escritorio:checked ~ .escritorio{
+        transition:transform 1s;/* el tiempo que se demore para que lo genere */
+        transform:translatex(0%);/*lo volvemos a la posicion orifginal*/
+    }
+    #buscar {
+    
+       display: none;
+    
+    }
+    
+    
+    
+   
+    
+}
+

@@ -1,0 +1,80 @@
+#servicios {
+ position: relative;  
+    
+        
+}
+
+#servicios .contenedor{
+    position:relative;
+    display: flex;
+  
+    margin: auto;
+    padding: 0% 6%; 
+
+   
+}
+    
+
+#servicios .contenedor article{
+    
+    width: 450px;
+    margin:0% auto;
+    
+    
+    
+   
+    
+    
+}
+
+#servicios  h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#servicios .contenedor h2{
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+#servicios .contenedor p{
+    font-size: 14px;
+    padding: 1% 5%;
+    color: rgb(112, 112, 112);
+}
+
+#servicios .contenedor  ul{
+    font-size: 14px;
+    padding: 0% 5%;
+    color: rgb(112, 112, 112);
+}
+ 
+@media (max-width:768px){
+    #servicios .contenedor{
+        position:relative;
+        text-align: center;
+        display: block;
+        margin:auto;
+        width: 80%;
+        padding: 1% 5%;
+       
+      }
+      #servicios .contenedor article{
+    
+        width: 100%;
+        
+    }
+    #servicios .contenedor article img{
+        margin-top: 5%;    
+        width: 100%;
+   
+    }
+    
+    
+    
+
+}
+    
+
